@@ -171,8 +171,3 @@
 
 **Technologies Used**: Python, Flask, PostgreSQL, Stripe API, HTML5, CSS3, JavaScript, Bootstrap, FontAwesome, Docker
 
-**Development Duration**: [Add your timeline]
-
-**Team Size**: [Add team information if applicable]
-
-**GitHub Repository**: [Add your repository link]
