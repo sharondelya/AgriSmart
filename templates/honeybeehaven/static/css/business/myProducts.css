@@ -1,0 +1,106 @@
+section .row {
+  margin-bottom: 40px;
+}
+
+.card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 15px;
+}
+
+hr {
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: none;
+  text-align: center;
+}
+.card .fa-trash {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.card .fa-pencil {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.fa-trash {
+  color: red;
+}
+
+.fa-pen {
+  color: green;
+}
+
+.cardImg {
+  height: 200px;
+  width: 299px;
+  object-fit: cover;
+}
+
+
+
+.header{
+  color: black;
+}
+.card:hover .header{
+  color: #ffd900;
+  transition-property:color;
+  transition-duration: 0.7s;
+  transition-timing-function: ease;
+}
+.card:not(:hover) .header {
+  transition-property:  color;
+  transition-duration: 0.8s;
+  transition-timing-function: ease;
+}
+
+.card:hover{
+  background-color: rgb(23, 19, 19);
+  transform: translateY(-3%);
+  transition-property: background-color, transform, color;
+  transition-duration: 0.7s;
+  transition-timing-function: ease;
+}
+.card:not(:hover) {
+  transform: translateY(3%);
+  transition-property: background-color, transform, color;
+  transition-duration: 0.8s;
+  transition-timing-function: ease;
+}
+
+@media (max-width: 1400px) {
+  .cardImg {
+    height: 200px;
+    width: 253px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cardImg {
+    height: 200px;
+    width: 209px;
+  }
+  .card:hover {
+    transform: translateY(-2.5%);
+  }
+  .card:not(:hover) {
+    transform: translateY(2.5%);
+  }
+}
+
+@media (max-width:990px) {
+  .cardImg {
+    height: 200px;
+    width: 100%;
+  }
+}
+
+.headerInfo {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+  "Lucida Sans", Arial, sans-serif;
+  font-size: 1.2rem;
+  padding: 0 0;
+  margin: 0 0;
+}
